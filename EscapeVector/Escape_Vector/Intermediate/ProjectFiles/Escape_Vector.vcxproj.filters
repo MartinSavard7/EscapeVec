@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Escape_Vector.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{C7564D68-80E9-47FB-B10B-EDD08FA660DA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Escape_Vector.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Escape_VectorEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{B20F8C23-26BC-468C-BC52-74C9B8824443}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Escape_Vector">
+			<UniqueIdentifier>{AA79EE0F-F542-49DD-9D99-8BBA665683BA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Escape_Vector\Escape_Vector.Build.cs">
+			<Filter>Source\Escape_Vector</Filter>
+		</None >
+		<Filter Include="Source\Escape_Vector\Private">
+			<UniqueIdentifier>{3276CA91-A8B1-4A92-B1A1-66F312B42C88}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Escape_Vector\Private\Escape_Vector.cpp">
+			<Filter>Source\Escape_Vector\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Escape_Vector\Private\Escape_VectorCharacter.cpp">
+			<Filter>Source\Escape_Vector\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Escape_Vector\Private\Escape_VectorGameMode.cpp">
+			<Filter>Source\Escape_Vector\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Escape_Vector\Private\Escape_VectorHUD.cpp">
+			<Filter>Source\Escape_Vector\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Escape_Vector\Private\Escape_VectorLeecherPawn.cpp">
+			<Filter>Source\Escape_Vector\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Escape_Vector\Private\Escape_VectorProjectile.cpp">
+			<Filter>Source\Escape_Vector\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Escape_Vector\Private\Escape_VectorSpawnLeecherVolume.cpp">
+			<Filter>Source\Escape_Vector\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Escape_Vector\Public">
+			<UniqueIdentifier>{88A36EBB-246C-4A78-BDAD-A14B29819F6B}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Escape_Vector\Public\Escape_Vector.h">
+			<Filter>Source\Escape_Vector\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Escape_Vector\Public\Escape_VectorCharacter.h">
+			<Filter>Source\Escape_Vector\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Escape_Vector\Public\Escape_VectorGameMode.h">
+			<Filter>Source\Escape_Vector\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Escape_Vector\Public\Escape_VectorHUD.h">
+			<Filter>Source\Escape_Vector\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Escape_Vector\Public\Escape_VectorLeecherPawn.h">
+			<Filter>Source\Escape_Vector\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Escape_Vector\Public\Escape_VectorProjectile.h">
+			<Filter>Source\Escape_Vector\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Escape_Vector\Public\Escape_VectorSpawnLeecherVolume.h">
+			<Filter>Source\Escape_Vector\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\Escape_Vector\Resources">
+			<UniqueIdentifier>{F1DB3CCB-3DAD-4E89-A9CF-2FEBF75199D3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Escape_Vector\Resources\Windows">
+			<UniqueIdentifier>{43ED63D3-AE38-4EDF-8379-D6ACA3688364}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Escape_Vector\Resources\Windows\Escape_Vector.ico">
+			<Filter>Source\Escape_Vector\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\Escape_Vector\Resources\Windows\Escape_Vector.rc">
+			<Filter>Source\Escape_Vector\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{904270A1-457D-12FD-CB56-48B093A577A5}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Escape_Vector",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
